@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element choice="3" default="ds" label="Asdfsdf" mandatory="true" max_length="50" name="asdfsdf" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice rwes" sequence="0" value="choice rwes"/>
+                <element inactive_on_update="false" label="Choice eee" sequence="1" value="choice eee"/>
+                <element inactive_on_update="false" label="ds" sequence="2" value="ds"/>
+            </choice>
+        </element>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
